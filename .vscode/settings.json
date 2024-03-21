@@ -1,0 +1,8 @@
+{
+    "java.compile.nullAnalysis.mode": "automatic",
+    "cSpell.words": [
+        "whitebackground"
+    ],
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "editor.formatOnSave": true
+}

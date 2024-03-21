@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "esModuleInterop": true,
+  },
+  "compilerOptions": {
+    "jsx": "react",
+    "esModuleInterop": true,
+  },
+  "compilerOptions": {
+    "jsx": "react",
+    "esModuleInterop": true,
+  },
+  "compilerOptions": {
+    "jsx": "react",
+    "esModuleInterop": true,
+  },
+  "compilerOptions": {
+    "jsx": "react",
+    "esModuleInterop": true,
+  },
+  "extends": "@tsconfig/react-native/tsconfig.json"
+}

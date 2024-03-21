@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>Wealthido</string>
+	<key>CFBundleDocumentTypes</key>
+	<array/>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>wealthido</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>LSApplicationCategoryType</key>
+	<string></string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>$(PRODUCT_NAME) would like to use your camera</string>
+	<key>NSContactsUsageDescription</key>
+	<string>We need access to your contacts to provide some cool features.</string>
+	<key>NSDesktopFolderUsageDescription</key>
+	<string>We need access to the document directory to export PDFs.</string>
+	<key>NSDocumentsFolderUsageDescription</key>
+	<string>We need access to your documents folder to export PDFs.</string>
+	<key>NSFaceIDUsageDescription</key>
+	<string>Wealthido requires FaceID access to allows you quick and secure access.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>We need access to your microphone to record audio for $(PRODUCT_NAME).</string>
+	<key>NSNotificationsUsageDescription</key>
+	<string>We need your permission for notifications</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Wealthido would like access to your photo gallery</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Georgiab-ExtraBold.ttf</string>
+		<string>Manrope-Light.ttf</string>
+		<string>Manrope-ExtraLight.ttf</string>
+		<string>Manrope-Regular.ttf</string>
+		<string>Manrope-Medium.ttf</string>
+		<string>Manrope-Bold.ttf</string>
+		<string>Manrope-SemiBold.ttf</string>
+		<string>Manrope-ExtraBold.ttf</string>
+		<string>Satisfy-Regular.ttf</string>
+		<string>SegoeUI-Bold.ttf</string>
+		<string>Segoe-UI.ttf</string>
+		<string>MaterialCommunityIcons.ttf</string>
+		<string>MaterialIcons.ttf</string>
+		<string>OCR A Extended Regular.ttf</string>
+		<string>Georgia Bold.ttf</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>remote-notification</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen.storyboard</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+	<key>branch_key</key>
+	<dict>
+		<key>live</key>
+		<string>key_live_nDmqDhR9WbiMtMwdfGze3bloEEjaDFPH</string>
+		<key>test</key>
+		<string>key_test_cqgsDlIY1poQFLycgHDc8hpeDsenyFIv</string>
+	</dict>
+	<key>branch_universal_link_domains</key>
+	<array>
+		<string>applinks:bbjsr.test-app.link</string>
+		<string>applinks:bbjsr-alternate.test-app.link</string>
+		<string>applinks:bbjsr.app.link</string>
+		<string>applinks:bbjsr-alternate.app.link</string>
+	</array>
+</dict>
+</plist>

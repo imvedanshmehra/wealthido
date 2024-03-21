@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>finance_mobile_app.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>buildNumber</key>
+			<string>1</string>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>C2F6707DC987E688D7BC987A7BAEAE77B091092A</string>
+				<key>dateExpires</key>
+				<string>25/09/24</string>
+				<key>type</key>
+				<string>Cloud Managed Apple Distribution</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>buildNumber</key>
+					<string>1</string>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>C2F6707DC987E688D7BC987A7BAEAE77B091092A</string>
+						<key>dateExpires</key>
+						<string>25/09/24</string>
+						<key>type</key>
+						<string>Cloud Managed Apple Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>Persona2.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>S9SH3U97UN</string>
+						<key>name</key>
+						<string>venkatesh Dondapati</string>
+					</dict>
+					<key>versionNumber</key>
+					<string>2.12.4</string>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>buildNumber</key>
+					<string>0.12.0</string>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>C2F6707DC987E688D7BC987A7BAEAE77B091092A</string>
+						<key>dateExpires</key>
+						<string>25/09/24</string>
+						<key>type</key>
+						<string>Cloud Managed Apple Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>hermes.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>S9SH3U97UN</string>
+						<key>name</key>
+						<string>venkatesh Dondapati</string>
+					</dict>
+					<key>versionNumber</key>
+					<string>0.12.0</string>
+				</dict>
+			</array>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>S9SH3U97UN.org.reactjs.native.example.finance-mobile-app</string>
+				<key>aps-environment</key>
+				<string>production</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>S9SH3U97UN</string>
+				<key>get-task-allow</key>
+				<false/>
+			</dict>
+			<key>name</key>
+			<string>finance_mobile_app.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>386e414d-ea50-4c5f-8238-998bc53632d8</string>
+				<key>dateExpires</key>
+				<string>25/09/24</string>
+				<key>name</key>
+				<string>iOS Team Ad Hoc Provisioning Profile: org.reactjs.native.example.finance-mobile-app</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>S9SH3U97UN</string>
+				<key>name</key>
+				<string>venkatesh Dondapati</string>
+			</dict>
+			<key>versionNumber</key>
+			<string>1.0</string>
+		</dict>
+	</array>
+</dict>
+</plist>

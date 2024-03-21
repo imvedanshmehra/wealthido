@@ -1,0 +1,44 @@
+export type LoginResponseModelDatum = {
+  country?: string;
+  firstname?: string;
+  enable2FAPhoneNo?: boolean;
+  role?: string;
+  gender?: null;
+  isVerified?: boolean;
+  cardCount?: number;
+  enable2FAEmail?: boolean;
+  phoneNo?: number;
+  ssn?: null;
+  enablePinLock?: boolean;
+  createdAt?: Date;
+  enable2FA?: boolean;
+  fingerprint?: boolean;
+  id?: number;
+  otpCount?: number;
+  setUpLater?: boolean;
+  email?: string;
+  updatedAt?: Date;
+  kycsubmit?: string;
+  lastname?: string;
+  kycstatus?: string;
+  blockTime?: null;
+  username?: string;
+  status?: boolean;
+  second?: number;
+  dob?: string;
+  accountId?: number;
+  userChitList?: UserChitList[];
+  personaSessionId?: string;
+  personaInquiryId?: string;
+  setUpLaterFingerOrFaceLock?: boolean;
+  enableFingerOrFaceLock?: boolean;
+  enableNotifications?: boolean;
+  enableEmailNotification?: boolean;
+  investor_profile_status?:boolean;
+  true?:boolean;
+};
+
+export type UserChitList = {
+  id?: number;
+  status?: boolean;
+};
